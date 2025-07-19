@@ -1,0 +1,37 @@
+{
+  "name": "ai-fitness-bot",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "bin/hubot run"
+  },
+  "author": "",
+  "keywords": [
+    "hubot",
+    "direct",
+    "bot",
+    "daab"
+  ],
+  "description": "",
+  "engines": {
+    "node": ">= 18",
+    "npm": ">= 10"
+  },
+  "dependencies": {
+    "forever": "^4.0.0",
+    "hubot-direct": ">=4 <5",
+    "lisb-hubot": ">=5 <6",
+    "lisb-hubot-redis-brain": "^1.0.0"
+  },
+  "overrides": {
+    "chokidar": {
+      "glob-parent": "^6.0.2"
+    },
+    "optimist": {
+      "minimist": "^0.2.4"
+    },
+    "broadway": {
+      "nconf": "^0.12.0"
+    }
+  }
+}

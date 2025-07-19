@@ -1,0 +1,5 @@
+{
+  "name": "ai-fitness-bot",
+  "description": "筋トレプラン提案ボット",
+  "scripts": ["scripts/fitnessBot.js"]
+}
